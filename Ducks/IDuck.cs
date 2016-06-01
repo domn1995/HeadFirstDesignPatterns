@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HeadFirstDesignPatterns
+namespace Ducks
 {
-    public static class Program
+    public interface IDuck
     {
-        public static void Main(string[] args)
-        {
-        }
     }
 }
