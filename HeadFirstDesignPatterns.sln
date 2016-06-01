@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckTestDrive", "TestDrives
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkeyTestDrive", "TestDrives\Adapter\Ducks\TurkeyTestDrive\TurkeyTestDrive.csproj", "{B4DD7247-2D41-4813-AB77-CF74D3E632B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{7E6E759C-848A-424D-AB7E-1B0E5237BF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRemote", "SimpleRemote\SimpleRemote.csproj", "{C3524019-81D4-4AC7-98D1-2AED059F776D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{B4DD7247-2D41-4813-AB77-CF74D3E632B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4DD7247-2D41-4813-AB77-CF74D3E632B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4DD7247-2D41-4813-AB77-CF74D3E632B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3524019-81D4-4AC7-98D1-2AED059F776D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3524019-81D4-4AC7-98D1-2AED059F776D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3524019-81D4-4AC7-98D1-2AED059F776D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3524019-81D4-4AC7-98D1-2AED059F776D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +53,6 @@ Global
 		{E13CF77B-2AF3-454F-84F1-F204B087DED5} = {5BFAEE23-31F1-4A12-8721-A84BBDD2AFA3}
 		{74CFFF87-36F7-4B00-934A-6A9D73353973} = {C24F373C-7A81-4AD0-9E5A-C7861CBDBD5E}
 		{B4DD7247-2D41-4813-AB77-CF74D3E632B0} = {C24F373C-7A81-4AD0-9E5A-C7861CBDBD5E}
+		{C3524019-81D4-4AC7-98D1-2AED059F776D} = {7E6E759C-848A-424D-AB7E-1B0E5237BF02}
 	EndGlobalSection
 EndGlobal
