@@ -1,8 +1,8 @@
 ﻿namespace Ducks
 {
-    public interface IDuck
+    public interface ITurkey
     {
-        void Quack();
+        void Gobble();
         void Fly();
     }
 }
