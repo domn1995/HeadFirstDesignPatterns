@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurkeyTestDrive", "TestDriv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{7E6E759C-848A-424D-AB7E-1B0E5237BF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRemote", "SimpleRemote\SimpleRemote.csproj", "{C3524019-81D4-4AC7-98D1-2AED059F776D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRemote", "Command\SimpleRemote\SimpleRemote.csproj", "{C3524019-81D4-4AC7-98D1-2AED059F776D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
