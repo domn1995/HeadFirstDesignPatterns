@@ -18,6 +18,7 @@ namespace RemoteControlTest
             remote.Command = garageOpen;
             remote.ButtonWasPressed();
 
+            // Wait until the user presses a button to close the console application.
             Console.Read();
         }
     }

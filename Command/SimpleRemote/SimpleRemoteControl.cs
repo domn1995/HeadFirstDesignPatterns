@@ -6,13 +6,7 @@
     public class SimpleRemoteControl
     {
         private ICommand slot;
-        public ICommand Command
-        {
-            set
-            {
-                slot = value;
-            }
-        }
+        public ICommand Command { get; set; }
 
         public SimpleRemoteControl() { }
 

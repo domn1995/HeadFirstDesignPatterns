@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{6D2C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlTest", "TestDrives\Command\RemoteControlTest\RemoteControlTest.csproj", "{46C8A719-B668-4D85-86F1-67066C5B828F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote", "Remote\Remote.csproj", "{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{46C8A719-B668-4D85-86F1-67066C5B828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C8A719-B668-4D85-86F1-67066C5B828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46C8A719-B668-4D85-86F1-67066C5B828F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +70,6 @@ Global
 		{C3524019-81D4-4AC7-98D1-2AED059F776D} = {7E6E759C-848A-424D-AB7E-1B0E5237BF02}
 		{6D2CD1A2-07B3-49FD-A2D2-AC64438BC29E} = {3B14531D-2BAA-4B52-9AD3-935F495CC5FC}
 		{46C8A719-B668-4D85-86F1-67066C5B828F} = {6D2CD1A2-07B3-49FD-A2D2-AC64438BC29E}
+		{7E9FCF34-C851-4FCF-8559-B921DA10FFB6} = {7E6E759C-848A-424D-AB7E-1B0E5237BF02}
 	EndGlobalSection
 EndGlobal
