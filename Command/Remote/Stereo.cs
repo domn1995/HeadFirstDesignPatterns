@@ -14,8 +14,8 @@ namespace Remote
                 if (value >= 0 || value <= 11)
                 {
                     volume = value;
+                    Console.WriteLine($"{location} stereo volume set to {volume}.");
                 }
-                Console.WriteLine($"{location} stereo volume set to {volume}.");
             }
         }
 
