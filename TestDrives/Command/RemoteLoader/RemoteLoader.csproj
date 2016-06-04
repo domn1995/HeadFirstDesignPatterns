@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1EAA7BE-10B7-4940-BBED-EAFFB0984B90}</ProjectGuid>
+    <ProjectGuid>{49C045EB-AF57-4B2A-B2CD-5A0FBB66EA47}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RemoteLoader</RootNamespace>
