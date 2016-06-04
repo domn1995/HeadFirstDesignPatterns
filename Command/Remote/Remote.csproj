@@ -57,7 +57,10 @@
     <Compile Include="LivingRoomLightOnCommand.cs" />
     <Compile Include="NoCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoteControl.cs" />
     <Compile Include="Stereo.cs" />
+    <Compile Include="StereoOffCommand.cs" />
+    <Compile Include="StereoOnWithCdCommand.cs" />
     <Compile Include="Tv.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

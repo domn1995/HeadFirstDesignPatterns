@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlTest", "TestDr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote", "Command\Remote\Remote.csproj", "{7E9FCF34-C851-4FCF-8559-B921DA10FFB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteLoader", "RemoteLoader\RemoteLoader.csproj", "{A1EAA7BE-10B7-4940-BBED-EAFFB0984B90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteLoader", "TestDrives\Command\RemoteLoader\RemoteLoader.csproj", "{A1EAA7BE-10B7-4940-BBED-EAFFB0984B90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

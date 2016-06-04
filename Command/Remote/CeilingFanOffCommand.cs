@@ -1,6 +1,6 @@
 ﻿namespace Remote
 {
-    class CeilingFanOffCommand : ICommand
+    public class CeilingFanOffCommand : ICommand
     {
         private readonly CeilingFan ceilingFan;
 

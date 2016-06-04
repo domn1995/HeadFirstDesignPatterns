@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="RemoteLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Command\Remote\Remote.csproj">
+    <ProjectReference Include="..\..\..\Command\Remote\Remote.csproj">
       <Project>{7e9fcf34-c851-4fcf-8559-b921da10ffb6}</Project>
       <Name>Remote</Name>
     </ProjectReference>
