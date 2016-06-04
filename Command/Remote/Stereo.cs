@@ -11,7 +11,7 @@ namespace Remote
             get { return volume; }
             set
             {
-                if (value >= 0 || value <= 11)
+                if (value >= 0 && value <= 11)
                 {
                     volume = value;
                     Console.WriteLine($"{location} stereo volume set to {volume}.");
