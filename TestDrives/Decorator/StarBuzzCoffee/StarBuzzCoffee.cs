@@ -22,7 +22,7 @@ namespace StarBuzzCoffee
             beverage3 = new Whip(beverage3);
             Console.WriteLine($"{beverage3.Description} ${beverage3.Cost}");
 
-            // Prevents the console application from closing until the user press any key.
+            // Prevents the console application from closing until the user presses any key.
             Console.Read();
         }
     }
